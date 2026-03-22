@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+    </head>
+    <body>
+        
+        <table>
+            <tr>
+                <td>
+                    <label for="priceInput">Price:</label>
+                </td>
+                <td>
+                    <input type="text" id="priceInput" placeholder="Enter Price">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="taxInput">Tax: </label>
+                </td>
+                <td>
+                    <input type="text" id="taxInput" placeholder="Enter Tax">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button onclick="calculateTotal()">Calculate Total</button>
+                </td>
+            </tr>
+        </table>
+        
+        <p id="result">Total Price: </p>
+
+        <script src="index.js"></script>
+
+    </body>
+    </html>
